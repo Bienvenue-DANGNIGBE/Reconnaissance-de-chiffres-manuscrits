@@ -65,4 +65,4 @@ if uploaded_file is not None:
 
     st.image(image, caption="Image originale", width=200)
     st.success(f"Chiffre détecté : **{digit}**")
-    st.info(f"Confiance : **{confidence*100:.2f}%**")
+    #st.info(f"Confiance : **{confidence*100:.2f}%**")
