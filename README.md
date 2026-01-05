@@ -1,2 +1,21 @@
-# Reconnaissance-de-chiffres-manuscrits
-Ce projet implémente un système de reconnaissance de chiffres manuscrits basé sur un réseau de neurones convolutif entraîné sur la base MNIST. Un prétraitement des images améliore la robustesse des prédictions. Une interface Streamlit permet de charger une image et d’identifier automatiquement le chiffre.
+# Reconnaissance de chiffres manuscrits avec Streamlit
+
+Ce projet implémente une application de **Machine Learning** permettant de
+reconnaître des chiffres manuscrits à partir d’images.
+
+## Méthodologie
+- Base de données : **MNIST**
+- Modèle : **Réseau de neurones convolutifs (CNN)**
+- Framework : **TensorFlow / Keras**
+- Interface : **Streamlit**
+
+## Fonctionnalités
+- Entraînement automatique du modèle CNN
+- Prétraitement robuste des images manuscrites
+- Prédiction du chiffre avec niveau de confiance
+- Interface web interactive
+
+## Lancer l'application localement
+```bash
+pip install -r requirements.txt
+streamlit run app.py
